@@ -1,0 +1,28 @@
+ublic class Course {
+    private String Title;
+    private String Level;
+    private String StartDate;
+
+    public String getTitle() {
+        return Title;
+    }
+
+    public void setTitle(String title) {
+        Title = title;
+    }
+
+    public String getLevel() {
+        return Level;
+    }
+
+    public void setLevel(String level) {
+        Level = level;
+    }
+
+    public String getStartDate() {
+        return StartDate;
+    }
+
+    public void setStartDate(String startDate) {
+        StartDate = startDate;
+    }
