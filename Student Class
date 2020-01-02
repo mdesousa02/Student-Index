@@ -1,0 +1,36 @@
+public class Student {
+    private String name;
+    private String DateOfBirth;
+    private Boolean HasStudentHousing;
+    private Course course;
+
+    public String getName() {
+        return name;
+    }
+    //This is to store the persons name and set it
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDateOfBirth() {
+        return DateOfBirth;
+    }
+
+    public void setDateOfBirth(String dateOfBirth) {
+        DateOfBirth = dateOfBirth;
+    }
+
+    public Boolean hasStudentHousing() {
+        return HasStudentHousing;
+    }
+
+    public void setHasStudentHousing(Boolean hasStudentHousing) {
+        HasStudentHousing = hasStudentHousing;
+    }
+    public void setCourse(Course course){
+        this.course = course;
+    }
+    public Course getCourse(){
+        return course;
+    }
+}
